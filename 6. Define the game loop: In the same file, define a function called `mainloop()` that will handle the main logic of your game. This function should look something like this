@@ -1,0 +1,15 @@
+def mainloop():
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Update the game state
+    # ...
+
+    # Draw the game state
+    # ...
+
+    # Flip the display
+    pygame.display.flip()

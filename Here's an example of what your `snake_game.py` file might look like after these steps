@@ -1,0 +1,29 @@
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the title of the window
+pygame.display.set_caption("Snake Game")
+
+# Create a new window for the game
+screen = pygame.display.set_mode((640, 480))
+
+def mainloop():
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Update the game state
+    # ...
+
+    # Draw the game state
+    # ...
+
+    # Flip the display
+    pygame.display.flip()
+
+# Run the game
+mainloop()
